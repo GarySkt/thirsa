@@ -1,0 +1,100 @@
+/*estilos para las tablas*/
+table
+{
+	width:570px;
+}
+
+table td.c_check
+{
+	width:10px;
+}
+
+table td.c_img
+{
+	width:120px;
+}
+
+table td.h_prod
+{
+	width:470px;
+}
+
+table td.c_prod
+{
+	width:350px;
+}
+
+table td.c_cant
+{
+	width:30px;
+}
+
+table td.c_punit
+{
+	width:30px;
+}
+
+
+table td.c_ptot
+{
+	width:30px;
+}
+
+
+.tbl_encabezado
+{
+	background-color:#906;
+	color:#fff;
+	text-align:center;
+}
+
+ul.opciones li
+{
+	display:inline;
+	float:left;
+	padding: 20px 10px;
+	text-align:center;
+}
+
+ul.opciones > li > a
+{
+	text-decoration:none;
+	color:#903;
+	font-weight:bold;
+}
+
+ul.opciones a:hover
+{
+	text-decoration:underline;
+}
+
+.label_montos
+{
+	width:493px;
+	float:left;
+	text-align:right;
+	margin-right: 7px;
+}
+
+.label_montos ul li
+{
+	display:block;
+	padding:3px 0px;
+	margin-bottom:3px;
+	font-weight:bold;
+}
+
+.monto
+{
+	width:70px;
+	float:left;
+	text-align:right;
+}
+
+.monto ul li
+{
+	display:block;
+	padding:3px 0px;
+	margin-bottom:3px;
+	background-color:#ccc;
+}

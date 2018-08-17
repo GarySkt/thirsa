@@ -1,0 +1,23 @@
+/*esto se encargara de darle estilo a los detalles de los productos*/
+article ul.productos li
+{
+	text-align:right;
+}
+
+.precio
+{
+	color:#900;	
+}
+
+.nom_prod
+{
+	color:#900;
+	font-weight:bold;
+}
+
+.detalle a
+{
+	text-decoration:none;
+	color: #900;
+	font-weight:bold;	
+}

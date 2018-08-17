@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+
+#contenedor
+{
+	width:1024px;
+	height:920px;
+	margin:0 auto;
+	background-color:#666a76;
+}
+
+/*encabezado*/
+header
+{
+	width:1024px;
+	height:100px;
+	background-color:#666a76;
+}
+
+#logo
+{
+	float:left;
+	height:80px;
+	width:273px;
+}
+
+#usuario
+{
+	background-image:url(../img/tienda/usuario.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	float:left;
+	height:80px;
+	width:500px;
+}
+
+#txtUser
+{
+	width:150px;
+	margin-left:300px;
+	margin-top:30px;
+	color:#fff;
+}
+
+#cerrar
+{
+	float:right;
+	height:80px;
+	width:251px;
+}
+
+#cerrar img
+{
+	margin-top:24px;
+}
+
+/**menu*/
+nav
+{
+	background-color:#903;
+	width:1000px;
+	height:38px;
+	float:left;
+	margin:0 12px;
+}
+
+nav *
+{
+	text-decoration:none;
+	text-transform:uppercase;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+nav .menu > li
+{
+	float:left;
+}
+
+nav .menu li a
+{
+	background:transparent;
+	color:#fff;
+	display:block;
+	border-left:1px solid;
+	padding:10px 15px;
+}
+
+nav .menu li a:hover
+{
+	background:#903;
+}
+
+nav .menu li ul
+{
+	display:none;
+	position:absolute;
+	min-width:130px;
+	background-color:#666a76;
+}
+
+nav .menu li:hover > ul
+{
+	display:block;
+}
+
+
+nav .menu li ul li
+{
+	position:relative;
+	background-color:#666a76;
+}
+
+nav .menu li ul li ul
+{
+	right:-210px;
+	top:0
+}
+
+
+/*contenido de la pagina*/
+section
+{
+	width:1000px;
+	margin:0 12px;
+	height:700px;
+	float:left;
+	background-color:#fff;
+}
+
+section .titulo
+{
+	text-transform:uppercase;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+}
+
+section p
+{
+	font-size:12px;
+}
+
+section .banner
+{
+	margin-left:250px;
+}
+
+section form
+{
+	margin-left:250px;
+}
+
+figure
+{
+	margin-top: 50px;
+	text-align:center;
+}
+
+.titulo_tabla
+{
+	background-color:#903;
+	color:#fff;
+	text-align:center;
+}
+
+.estilo7
+{
+	border-left: 1px solid #aaa;
+}
+
+section a
+{
+	text-decoration:none;
+}
+
+article
+{
+	height:650px;
+	overflow:scroll;
+}
+
+section td
+{
+	border:1px #999999 solid;
+}
+
+/*login*/
+#bloque_login
+{
+	width:300px;
+	height:300px;
+	margin:30px auto;
+} 
+
+#bloque_login #cabecera
+{
+	background-image:url(../img/tienda/solo_autorizados.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	width:300px;
+	height:100px;
+}
+
+#bloque_login #form
+{
+	border-radius:6px;
+	-moz-box-shadow: 0px 0px 5px #999999;
+	-ms-box-shadow: 0px 0px 5px #999999;
+	-o-box-shadow: 0px 0px 5px #999999;
+	-webkit-box-shadow: 0px 0px 5px #999999;
+	box-shadow: 0px 0px 5px #999999;
+	background-color:#999;
+	width:300px;
+	height:200px;
+}
+
+#bloque_login #form_login
+{
+	margin:0;	
+}
+
+#bloque_login #form_login label
+{
+	text-align:center;
+}
+
+.obj_login
+{
+	text-align:center;
+}
+
+.campo
+{
+	padding:5px 20px;
+}
+
+/*pie de pagina*/
+footer
+{
+	float:left;
+	width:1024px;
+	height:80px;
+	background-color:#666a76;
+	text-align:center;
+	color:#fff;
+}
+
+
+/*validar*/
+input:required:invalid 
+{
+	border: 1px solid red;
+}
+
+input:required:valid 
+{ 
+	border: 1px solid green;
+}

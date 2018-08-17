@@ -1,0 +1,33 @@
+/*formulario de registro y contacto*/
+
+form.form
+{
+	margin-left:15px;
+	padding:0;
+}
+
+form.form ul li
+{
+	display:inline-block;
+}
+
+form.form li.label
+{
+	width:150px;
+}
+
+form.form li#lbl_comentario
+{	
+	padding-bottom:40px;
+}
+
+input:required:valid
+{
+	border:1px solid green;
+}
+
+
+input:required:invalid
+{
+	border:1px solid red;
+}
